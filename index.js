@@ -10,13 +10,11 @@ mailin.start({
 
 mailin.on('message', function(connection, data, content) {
     const postBody = {
-        'received': {
-            from: data.from.value,
-            html: data.html,
-            to: data.to.value,
-            text: data.text,
-            subject: data.subject
-        }
+        from: data.from.value,
+        html: data.html,
+        to: data.to.value,
+        text: data.text,
+        subject: data.subject
     }
     console.log(data)
     console.log('_____________________')
