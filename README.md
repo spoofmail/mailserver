@@ -5,6 +5,6 @@ Deployed on AWS Lightsail.
 
 MX record setup on Google DNS points to the Lightsail instance
 
-SpoofMail Frontend: https://github.com/spoofmail/front-end
+Spoofmail Frontend: https://github.com/spoofmail/front-end
 
-SpoofMail Backend: https://github.com/spoofmail/back-end
+Spoofmail Backend: https://github.com/spoofmail/back-end
