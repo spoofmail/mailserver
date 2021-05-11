@@ -1,0 +1,23 @@
+{
+  "name": "mailserver",
+  "version": "1.0.0",
+  "description": "Mail server deployed on AWS Lightsail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoofmail/mailserver.git"
+  },
+  "author": "Vincent Costa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/spoofmail/mailserver/issues"
+  },
+  "homepage": "https://github.com/spoofmail/mailserver#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-mailin": "^2.4.0"
+  }
+}
