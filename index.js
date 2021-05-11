@@ -26,6 +26,6 @@ mailin.on('message', function(connection, data, content) {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
         },
-        body: postBody,
+        data: postBody,
     })
 })
